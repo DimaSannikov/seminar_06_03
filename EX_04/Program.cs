@@ -7,9 +7,9 @@ void ReturnElements()
     int[] array = new int[8] {0, 0, 0, 0, 0, 0, 0, 0};
     for(int i = 0; i < 8; i++)
     {
-    int num = new Random().Next(2);
-    array[i] = num;
-    Console.Write($"{array[i]} ");
+        int num = new Random().Next(2);
+        array[i] = num;
+        Console.Write($"{array[i]} ");
     }
 }
 
