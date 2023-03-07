@@ -9,7 +9,7 @@ void ReturnElements(int number, int len)
         int num = new Random().Next(number);
         array[i] = num;
     }
-    Console.WriteLine("{"+$"{String.Join(", ", array)}"+"}");
+    Console.WriteLine("["+$"{String.Join(", ", array)}"+"]");
 }
 
 Console.Write("Введите целое число: ");
